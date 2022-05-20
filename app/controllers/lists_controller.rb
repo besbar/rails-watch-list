@@ -10,6 +10,7 @@ class ListsController < ApplicationController
   end
 
   def show
+    @review = Review.new
     @bookmark = Bookmark.new
   end
 
